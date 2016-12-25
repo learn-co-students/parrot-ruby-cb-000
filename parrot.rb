@@ -1,7 +1,9 @@
-# Create method `parrot` that outputs a given phrase and
-# returns the phrase
+
+# puts "#{string}" &
+# return "#{string}"
+# was bad design, changed it
 
 def parrot(string = "Squawk!")
-  puts "#{string}"
-  return "#{string}"
-end
+    puts string.to_s
+    string.to_s
+  end
